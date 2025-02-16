@@ -49,7 +49,11 @@ Feel free to explore the Jupyter Notebook (`Fake_News_Detector-PA.ipynb`) for mo
 ## Images
 This section provides visuals and diagrams used in the project:
 - Home Page:
+![Home Page](Images/Home_Page.png)
+
 - Prediction Page:
+![Prediction Page](Images/Prediction_Page.png)
+
 - Block Diagram:
 ![Block Diagram](Images/BlockDiagram.jpg)
 
