@@ -1,12 +1,12 @@
 # Fake News Detection using Machine Learning
 
 ## Introduction
-This repository contains a comprehensive project for detecting fake news using machine learning techniques and various natural language processing techniques. The project includes data analysis, model training, and a web application for real-time fake news detection. The machine learning model is designed to classify news articles as either real or fake based on their content.
+This repository presents a detailed project aimed at detecting fake news using machine learning and natural language processing (NLP) techniques. The project covers data preprocessing, model training, and the development of a web-based application for real-time fake news classification. The machine learning model is trained to determine whether a news article is genuine or fabricated based on its textual content.
 
 ## Problem Definition
-We aim to develop a machine learning program to identify when a news source may be producing fake news. The model will focus on identifying fake news sources, based on multiple articles originating from a source. Once a source is labeled as a producer of fake news, we can predict with high confidence that any future articles from that source will also be fake news. Focusing on sources widens our article misclassification tolerance, because we will have multiple data points coming from each source.
+The objective of this project is to create a machine learning system capable of identifying sources that frequently produce fake news. By analyzing multiple articles from a given source, the model can classify the source as reliable or unreliable. Once a source is flagged as a producer of fake news, future articles from that source can be predicted with high confidence to also be fake. This approach leverages multiple data points per source, reducing the likelihood of misclassifying individual articles.
 
-The intended application of the project is for use in applying visibility weights in social media. Using weights produced by this model, social networks can make stories that are highly likely to be fake news less visible.
+The ultimate goal of this project is to assist in improving content visibility on social media platforms. By assigning visibility weights based on the model's predictions, social networks can suppress the spread of articles that are likely to be fake, thereby promoting more reliable information.
 
 ## Project Structure
 The repository is organized into the following directories and files:
@@ -82,7 +82,7 @@ To get started with this project, follow these steps:
 
 3. Activate the Conda environment:
    ```bash
-   # conda activate my_env
+   conda activate my_env
    ```
 
 4. Install project dependencies:
