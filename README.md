@@ -1,5 +1,5 @@
 # Fake News Detection using Machine Learning
-
+# http://54.88.59.187/
 ## Introduction
 This repository presents a detailed project aimed at detecting fake news using machine learning and natural language processing (NLP) techniques. The project covers data preprocessing, model training, and the development of a web-based application for real-time fake news classification. The machine learning model is trained to determine whether a news article is genuine or fabricated based on its textual content.
 
