@@ -1,15 +1,5 @@
 # Fake News Detection using Machine Learning
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Problem Definition](#problem-definition)
-- [Project Structure](#project-structure)
-- [Datasets](#datasets)
-- [Model Name](#model-name)
-- [Images](#images)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-
 ## Introduction
 This repository contains a comprehensive project for detecting fake news using machine learning techniques and various natural language processing techniques. The project includes data analysis, model training, and a web application for real-time fake news detection. The machine learning model is designed to classify news articles as either real or fake based on their content.
 
@@ -58,13 +48,15 @@ Feel free to explore the Jupyter Notebook (`Fake_News_Detector-PA.ipynb`) for mo
 
 ## Images
 This section provides visuals and diagrams used in the project:
-- Block Diagram
+- Home Page:
+- Prediction Page:
+- Block Diagram:
 ![Block Diagram](Images/BlockDiagram.jpg)
 
-- Process Flow Diagram
+- Process Flow Diagram:
 ![Process Flow Diagram](Images/Processflow.jpg)
 
-- Confusion Matrix
+- Confusion Matrix:
 ![Confusion Matrix](Images/ConfusionMatrix.jpg)
 
 ## Prerequisites
