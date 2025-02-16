@@ -75,17 +75,14 @@ To get started with this project, follow these steps:
    git clone https://github.com/abiek12/Fake-News-Detection-using-MachineLearning.git
    ```
 
-2. Create a virtual environment (optional but recommended):
+2. Create Conda environment: (optional but recommended):
    ```bash
-   python -m venv my_env
+   conda create --name my_env python=3.9 -y
    ```
 
-3. Activate the virtual environment:
+3. Activate the Conda environment:
    ```bash
-   # On Windows
-   .\my_env\Scripts\Activate.ps1
-   # On macOS and Linux
-   source my_env/bin/activate
+   # conda activate my_env
    ```
 
 4. Install project dependencies:
