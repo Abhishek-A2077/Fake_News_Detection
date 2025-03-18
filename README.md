@@ -48,21 +48,26 @@ The model is pre-trained and available as `model.pkl` in this repository, allowi
 Feel free to explore the Jupyter Notebook (`Fake_News_Detector-PA.ipynb`) for more details about the model's training and performance.
 
 ## Images
-This section provides visuals and diagrams used in the project:
-- Home Page:
-![Home Page](Images/Home_Page.png)
 
-- Prediction Page:
-![Prediction Page](Images/Prediction_Page.png)
+### System Architecture
+![Block Diagram](backend/Images/BlockDiagram.jpg)
 
-- Block Diagram:
-![Block Diagram](Images/BlockDiagram.jpg)
+### Model Performance
+![Classification Report](backend/Images/ClassificationReport.jpg)
+![Confusion Matrix](backend/Images/ConfusionMatrix.jpg)
 
-- Process Flow Diagram:
-![Process Flow Diagram](Images/Processflow.jpg)
+### User Interface
+![Homepage](backend/Images/homepage.png)
+![Landing Page](backend/Images/landingpage.png)
+![Landing Page Alternative](backend/Images/landingpage2.png)
 
-- Confusion Matrix:
-![Confusion Matrix](Images/ConfusionMatrix.jpg)
+### News Classification Examples
+![Real News Example](backend/Images/realnews.png)
+![Fake News Example](backend/Images/fakenews.png)
+
+### Process Flow
+![Process Flow](backend/Images/ProcessFlow.jpg)
+
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
