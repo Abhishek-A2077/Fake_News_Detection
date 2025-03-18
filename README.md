@@ -66,7 +66,7 @@ Feel free to explore the Jupyter Notebook (`Fake_News_Detector-PA.ipynb`) for mo
 ![Fake News Example](backend/Images/fakenews.png)
 
 ### Process Flow
-![Process Flow](backend/Images/ProcessFlow.jpg)
+![Process Flow](backend/Images/Processflow.jpg)
 
 
 ## Prerequisites
