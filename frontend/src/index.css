@@ -1,0 +1,103 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 232 23% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 229 20% 15%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 229 20% 13%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 220 70% 55%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 215 25% 27%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 215 25% 20%;
+    --muted-foreground: 215 20% 70%;
+
+    --accent: 220 70% 60%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 25% 22%;
+    --input: 215 25% 22%;
+    --ring: 220 70% 55%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 230 20% 10%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 220 70% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 215 25% 20%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 215 25% 22%;
+    --sidebar-ring: 220 70% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+  }
+
+  .glass {
+    @apply bg-card/40 backdrop-blur-lg border border-white/5 shadow-lg;
+  }
+
+  .glass-hover {
+    @apply transition-all duration-300 hover:bg-card/60 hover:border-white/10;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+
+  .h1 {
+    @apply text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl font-display;
+  }
+
+  .h2 {
+    @apply text-3xl font-bold tracking-tight md:text-4xl font-display;
+  }
+
+  .h3 {
+    @apply text-2xl font-bold tracking-tight md:text-3xl font-display;
+  }
+  
+  .container-custom {
+    @apply px-4 mx-auto max-w-7xl sm:px-6 lg:px-8;
+  }
+
+  .link-underline {
+    @apply relative after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary 
+      after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
+  }
+
+  .btn-shine {
+    @apply relative overflow-hidden;
+  }
+
+  .btn-shine::after {
+    @apply content-[''] absolute top-0 left-[-100%] z-10 w-[120%] h-full bg-white/20 skew-x-[-25deg] transition-all duration-1000;
+  }
+
+  .btn-shine:hover::after {
+    @apply left-[100%] transition-all duration-1000;
+  }
+}
